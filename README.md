@@ -1,3 +1,56 @@
+# BTK Hackathon 2024 - Yapay Zeka Destekli Matematik Çözücü
+
+## 📋 Proje Özeti
+
+Bu proje, **BTK Hackathon 2024** için geliştirilmiş, Gemini yapay zeka destekli bir matematik problemi çözücü web uygulamasıdır. Uygulama, kullanıcıların matematik problemlerini **metin**, **dosya**, **ses kaydı** veya **fotoğraf** yoluyla girip anında çözüm alabildikleri, eğitim odaklı bir platformdur.
+
+### 🎯 Temel Özellikler
+- ✍️ **Çoklu Girdi Desteği**: Metin, PDF, ses kaydı ve fotoğraf ile problem girişi
+- 🤖 **Gemini AI Entegrasyonu**: Google Gemini API ile güçlendirilmiş çözüm motoru
+- 📚 **Adım Adım Açıklama**: Her problemin detaylı, eğitici çözüm adımları
+- 🎥 **Video ve Doküman Önerileri**: Konu ile ilgili YouTube videoları ve öğrenme kaynakları
+- 📱 **Responsive Tasarım**: Mobil, tablet ve masaüstü uyumlu arayüz
+- 🔊 **OCR ve Ses Tanıma**: EasyOCR ve Google Speech Recognition ile görüntü ve ses işleme
+
+### 🛠️ Teknoloji Stack
+- **Backend**: Flask (Python)
+- **AI/ML**: Google Gemini API, EasyOCR, SpeechRecognition
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Görüntü İşleme**: OpenCV, Pillow
+- **Diğer**: Markdown, NumPy
+
+### 👥 Geliştirme
+3 kişilik bir ekip tarafından Git versiyon kontrolü kullanılarak geliştirilmiştir.
+
+### 🚀 Kurulum ve Çalıştırma
+```bash
+# Bağımlılıkları yükle
+pip install -r requirements.txt
+
+# Uygulamayı çalıştır
+python app.py
+```
+
+---
+
+## 📖 English Summary
+
+This is an **AI-powered math problem solver** web application developed for **BTK Hackathon 2024**. The application uses **Google's Gemini AI** to help users solve math problems through multiple input methods: text, file upload, voice recording, or photo capture. It provides step-by-step solutions with explanations, related educational videos, and learning resources.
+
+**Key Features:**
+- Multi-modal input support (text, file, voice, photo)
+- Powered by Google Gemini API
+- Step-by-step explanations
+- Educational video and document recommendations
+- Responsive design for all devices
+- OCR and speech recognition capabilities
+
+**Tech Stack:** Flask, Google Gemini API, EasyOCR, SpeechRecognition, OpenCV
+
+---
+
+## 📝 Detaylı Dokümantasyon
+
 **1. Giriş:**
 
 `   `- Hackathon 2024, Türkiye'de yazılım geliştirmeye ve yapay zekâ alanına ilgi duyan herkese teorik bilgilerini pratikte uygulama imkânı sunan bir etkinlik olarak tasarlanmıştır. Bu hackathonun amacı, katılımcıların veri bilimi ve yapay zekâ konusundaki bilgilerini gerçek dünyadaki problemlere uygulayarak deneyim kazanmalarını sağlamaktır. Bu doğrultuda, biz de yarışmanın şartlarına uygun olarak Gemini destekli bir uygulama geliştirdik. Uygulamamız, yapay zekâ kullanarak belirli bir problemi çözmek için veri bilimi becerilerimizi ortaya koymamız açısından bize önemli bir pratik alan sundu.
