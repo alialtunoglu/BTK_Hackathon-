@@ -19,17 +19,31 @@ Bu proje, **BTK Hackathon 2024** için geliştirilmiş, Gemini yapay zeka destek
 - **Görüntü İşleme**: OpenCV, Pillow
 - **Diğer**: Markdown, NumPy
 
-### 👥 Geliştirme
-3 kişilik bir ekip tarafından Git versiyon kontrolü kullanılarak geliştirilmiştir.
+### 👥 Takım ve Geliştirme Süreci
+3 kişilik bir ekip tarafından Git versiyon kontrolü kullanılarak işbirlikçi bir şekilde geliştirilmiştir.
 
 ### 🚀 Kurulum ve Çalıştırma
 ```bash
-# Bağımlılıkları yükle
+# 1. Sanal ortam oluştur (önerilen)
+python -m venv venv
+
+# 2. Sanal ortamı aktifleştir
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# 3. Bağımlılıkları yükle
 pip install -r requirements.txt
 
-# Uygulamayı çalıştır
+# 4. Google Gemini API anahtarını ayarla
+# app.py ve gemini_question.py dosyalarındaki API_KEY değerini kendi Gemini API anahtarınızla değiştirin
+
+# 5. Uygulamayı çalıştır
 python app.py
 ```
+
+**Not:** Uygulama için Google Gemini API anahtarı gereklidir. [Google AI Studio](https://makersuite.google.com/app/apikey) üzerinden ücretsiz API anahtarı alabilirsiniz.
 
 ---
 
@@ -46,6 +60,23 @@ This is an **AI-powered math problem solver** web application developed for **BT
 - OCR and speech recognition capabilities
 
 **Tech Stack:** Flask, Google Gemini API, EasyOCR, SpeechRecognition, OpenCV
+
+**Installation:**
+```bash
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up Google Gemini API key in app.py and gemini_question.py
+
+# Run the application
+python app.py
+```
+
+**Note:** You need a Google Gemini API key to run this application. Get your free API key at [Google AI Studio](https://makersuite.google.com/app/apikey).
 
 ---
 
